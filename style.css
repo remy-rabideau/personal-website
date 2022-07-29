@@ -1,26 +1,42 @@
 @import url('https://fonts.googleapis.com/css2?family=Signika&display=swap');
 
 body {
+    color: rgb(248, 244, 255);
     background-color: rgb(41, 40, 46);
     font-family: 'Signika', sans-serif;
+    user-select: none;
 }
 
 #title-pic {
     width: 600px;
     display: block;
     margin-left: auto;
+    border-radius: 3%;
 }
 
 table {
     width: 100%;
-    padding-top: 4%;
-    padding-right: 2%;
-    padding-left: 2%;
-    padding-bottom: 2%;
+    padding: 4%;
 }  
 
 #title {
-    color: rgb(248, 244, 255);
     font-size: 60px;
     text-align: center;
+}
+
+h2 {
+    margin-left: 8%;
+    font-size: 30px;
+}
+
+p {
+    margin-left: 10%;
+    margin-right: 3%;
+    font-size: 20px;
+    line-height: 150%;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(156, 149, 255);
 }
