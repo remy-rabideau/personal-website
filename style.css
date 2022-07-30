@@ -7,11 +7,14 @@ body {
     user-select: none;
 }
 
+img {
+    border-radius: 3%;
+    display: block;
+}
+
 #title-pic {
     width: 600px;
-    display: block;
     margin-left: auto;
-    border-radius: 3%;
 }
 
 table {
@@ -31,17 +34,33 @@ h2 {
 
 h3 {
     margin-left: 9%;
-    font-size: 23px;
+    font-size: 26px;
 }
 
 p {
     margin-left: 10%;
     margin-right: 18%;
-    font-size: 20px;
+    font-size: 21px;
     line-height: 150%;
 }
 
 a {
     text-decoration: none;
     color: rgb(156, 149, 255);
+}
+
+.left-pic, .right-pic {
+    width: 500px;
+}
+
+.left-pic {
+    margin-left: 10%;
+}
+
+.right-pic {
+    margin-left: 16%;
+}
+
+tr.row>td {
+    padding-bottom: 10%;
 }
