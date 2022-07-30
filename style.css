@@ -29,9 +29,14 @@ h2 {
     font-size: 30px;
 }
 
+h3 {
+    margin-left: 9%;
+    font-size: 23px;
+}
+
 p {
     margin-left: 10%;
-    margin-right: 3%;
+    margin-right: 18%;
     font-size: 20px;
     line-height: 150%;
 }
