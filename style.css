@@ -26,7 +26,7 @@ body {
 }
 
 a {
-    color: currentColor;
+    color: rgb(177, 170, 255);
     text-decoration: initial;
 }
 
@@ -73,23 +73,20 @@ p {
     line-height: 150%;
 }
 
-.link {
-    text-decoration: none;
-    color: rgb(156, 149, 255);
-}
-
 .left-pic, .right-pic {
     width: 500px;
 }
 
 .left-pic {
-    margin-left: 10%;
+    margin-left: 20%;
 }
 
 .right-pic {
-    margin-left: 16%;
+    margin-left: 10%;
 }
 
 tr.row>td {
     padding-bottom: 10%;
+    min-width: 550px;
+    position: relative;
 }
