@@ -8,85 +8,142 @@ body {
     cursor: default;
 }
 
-#nav-bar {
+table {
     width: 100%;
-    text-align: center;
-    font-size: 25px;
-    background-color: #1d2f48;
-    border-radius: 15px 50px;
 }
 
-#nb-home {
-    font-size: 35px;
+.row-td {
+    width: 50%;
 }
 
-.nb-item {
-    width: 20%;
-    padding: 20px;
+#nav-bar-mobile {
+    display: none;
+}
+
+.row-mobile {
+    display: none;
 }
 
 a {
-    color: rgb(177, 170, 255);
+    color: currentColor;
     text-decoration: initial;
 }
 
-img {
-    border-radius: 3%;
-    display: block;
+.navbar-link {
+    width: 33.3%;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
-#title-pic {
-    width: 600px;
-    margin-left: auto;
+#nav-bar-desk, #nav-bar-mobile {
+    width: 99.2%;
+    text-align: center;
+    font-size: 25px;
+    background-color: #1D2D44;
+    border-radius: 15px 50px;
+    margin-top: 20px;
+    margin-bottom: 100px;
+    margin-left: 5px;
 }
 
-#title-table {
-    width: 100%;
-    padding: 4%;
-}  
+#home {
+    font-size: 40px;
+}
 
-#title {
-    font-size: 60px;
+h1 {
+    font-size: 70px;
     text-align: center;
 }
 
-#rose {
-    width: 60%;
-    margin-left: 10%;
-}
-
 h2 {
-    margin-left: 8%;
-    margin-bottom: -5%;
-    font-size: 35px;
+    font-size: 50px;
+    margin-left: 100px;
 }
 
 h3 {
-    margin-left: 15%;
-    font-size: 26px;
+    font-size: 40px;
+    margin-left: 100px;
+}
+
+h2, h3 {
+    padding-top: 100px;
+    padding-bottom: 10px;
 }
 
 p {
-    margin-left: 18%;
-    margin-right: 18%;
-    font-size: 21px;
-    line-height: 150%;
+    text-align: justify;
+    font-size: 30px;
+    margin-left: 120px;
 }
 
-.left-pic, .right-pic {
+img {
     width: 500px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;    
+    border-radius: 20px;
 }
 
-.left-pic {
-    margin-left: 20%;
+.heading-pic {
+    width: 700px;
 }
 
-.right-pic {
-    margin-left: 10%;
+.link:link, .link:visited {
+    color: #9dacc5;
 }
 
-tr.row>td {
-    padding-bottom: 10%;
-    min-width: 550px;
-    position: relative;
+@media only screen and (max-width: 650px) {
+    td {
+        width: 100%;
+    }
+
+    h1 {
+        font-size: 50px;
+    }
+
+    h2 {
+        font-size: 45px;
+    }
+
+    h3 {
+        font-size: 40px;
+    }
+
+    h2, h3 {
+        text-align: center;
+        margin-left: 0;
+        padding-top: 50px;
+    }
+
+    p {
+        margin-left: 15%;
+        margin-right: 15%;
+        font-size: 25px;
+    }
+
+    img {
+        width: 70%;
+    }
+
+    .heading-pic {
+        width: 90%;
+    }
+
+    #nav-bar-mobile {
+        display: table;        
+        width: 97%;
+        margin-bottom: 10px;
+    }
+
+    #nav-bar-desk {
+        display: none;
+    }
+
+    .row-mobile {
+        display: table;
+    }
+
+    .row-desk {
+        display: none;
+    }
 }

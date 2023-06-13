@@ -4,85 +4,190 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+        <meta http-equiv="Pragma" content="no-cache">
+        <meta http-equiv="Expires" content="0">
         <link rel="icon" href=".assets/favicon.ico" type="image/x-icon">
         <link href="style.css" type="text/css" rel="stylesheet">
         <title>Remy Rabideau</title>
     </head>
     <body>
-        <table id="nav-bar">
+        <table id="nav-bar-desk">
             <tr>
-                <td class="nb-item" id="nb-home"><a href="https://remy.rabideau.org/">Home</a></td>
-                <td class="nb-item"><a href="https://remy.rabideau.org/backpacking">Backpacking</a></td>
-                <td class="nb-item"><a href="https://remy.rabideau.org/rose-hulman">Rose-Hulman</a></td>
+                <td class="navbar-link"><a id="home" href=".">Home</a></td>
+                <td class="navbar-link"><a href="backpacking/">Backpacking</a></td>
+                <td class="navbar-link"><a href="rose-hulman/">Rose-Hulman</a></td>
             </tr>
         </table>
-        <table id="title-table">
+
+        <table id="nav-bar-mobile">
             <tr>
-                <td>
-                    <h1 id="title">
+                <td class="navbar-link"><a href=".">Home</a></td>
+            </tr>
+            <tr>
+                <td class="navbar-link"><a href="backpacking/">Backpacking</a></td>
+            </tr>
+            <tr>
+                <td class="navbar-link"><a href="rose-hulman/">Rose-Hulman</a></td>
+            </tr>
+        </table>
+
+        <table class="row-desk">
+            <tr>
+                <td class="row-td">
+                    <h1>
                         Remy Carter Rabideau
                     </h1>
                 </td>
-                <td>
-                    <img src=".assets/title_pic.jpg" id="title-pic">
+                <td class="row-td">
+                    <img src=".assets/title_pic.jpg" class="heading-pic">
                 </td>
             </tr>
         </table>
+
+        <table class="row-mobile">
+            <tr>
+                <td>
+                    <h1>
+                        Remy Carter Rabideau
+                    </h1>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <img src=".assets/title_pic.jpg" class="heading-pic">
+                </td>
+            </tr>
+        </table>
+
         <h2>
             About Me
         </h2>
-        <table>
-            <tr class="row">
-                <td>
+
+        <table class="row-desk">
+            <tr>
+                <td class="row-td">
                     <p>
-                        Hi, I'm Remy. Californian-born and -rasied, I graduated from <a href="https://www.pusd.us/phs" target="_blank">Pasadena High School</a> in June of 2023, and will study computer science at <a href="https://rose-hulman.edu/" target="_blank">Rose–Hulman Institute of Technology</a> in the class of 2027.
+                        Hi, I'm Remy. Californian-born and -rasied, I graduated from <a class="link" href="https://www.pusd.us/phs" target="_blank">Pasadena High School</a> in June of 2023, and will study computer science at <a class="link" href="https://rose-hulman.edu/" target="_blank">Rose–Hulman Institute of Technology</a> in the class of 2027.
                     </p>
                 </td>
-                <td>
-                    <img id="rose" src=".assets/rose.png">
+                <td class="row-td">
+                    <img src=".assets/rose.png">
                 </td>
             </tr>
         </table>
-        <table>
-            <tr class="row">
+
+        <table class="row-mobile">
+            <tr>
                 <td>
-                    <h3>
-                        Backpacking
-                    </h3>
                     <p>
-                        Since I was five years old, I've been on over 30 backpacking trips in primarily California, but also in Oregon, Washington, Idaho, and British Columbia. My pictures can be found <a href="http://www.rabideau.org/remy/backpacking" target="_blank">here</a>.
+                        Hi, I'm Remy. Californian-born and -rasied, I graduated from <a class="link" href="https://www.pusd.us/phs" target="_blank">Pasadena High School</a> in June of 2023, and will study computer science at <a class="link" href="https://rose-hulman.edu/" target="_blank">Rose–Hulman Institute of Technology</a> in the class of 2027.
                     </p>
-                </td>
+                </td>                
+            </tr>
+            <tr>
                 <td>
-                    <img class="right-pic" src=".assets/backpacking.jpg">
+                    <img src=".assets/rose.png">
                 </td>
             </tr>
-            <tr class="row">
-                <td>
-                    <img class="left-pic" src=".assets/hapkido.jpg">
-                </td>
-                <td>
-                    <h3>
-                        Hapkido
-                    </h3>
+        </table>
+
+        <h3>
+            Backpacking
+        </h3>
+
+        <table class="row-desk">
+            <tr>
+                <td class="row-td">                    
                     <p>
-                        Since I was six years old, I've been training in the Korean–Japanese martial art of Hapkido at <a href="https://www.g3academy.com/" target="_blank">G3 Academy of Martial Arts</a> in Sierra Madre, California. In January of 2023, I earned my first-degree black belt.
+                        Since I was five years old, I've been on over 30 backpacking trips in primarily California, but also in Oregon, Washington, Idaho, and British Columbia. My pictures can be found <a class="link" href="http://www.rabideau.org/remy/backpacking" target="_blank">here</a>.
+                    </p>
+                </td>
+                <td class="row-td">
+                    <img src=".assets/backpacking.jpg">
+                </td>
+            </tr>            
+        </table>
+
+        <table class="row-mobile">
+            <tr>
+                <td>                    
+                    <p>
+                        Since I was five years old, I've been on over 30 backpacking trips in primarily California, but also in Oregon, Washington, Idaho, and British Columbia. My pictures can be found <a class="link" href="http://www.rabideau.org/remy/backpacking" target="_blank">here</a>.
+                    </p>
+                </td>                
+            </tr>    
+            <tr>
+                <td>
+                    <img src=".assets/backpacking.jpg">
+                </td>
+            </tr>        
+        </table>
+        
+        <h3>
+            Hapkido
+        </h3>
+
+        <table class="row-desk">
+            <tr>                
+                <td class="row-td">
+                    <p>
+                        Since I was six years old, I've been training in the Korean–Japanese martial art of Hapkido at <a class="link" href="https://www.g3academy.com/" target="_blank">G3 Academy of Martial Arts</a> in Sierra Madre, California. In January of 2023, I earned my first-degree black belt.
+                    </p>
+                </td>
+                <td class="row-td">
+                    <img src=".assets/hapkido.jpg">
+                </td>
+            </tr>
+        </table>
+
+        <table class="row-mobile">
+            <tr>
+                <td>
+                    <p>
+                        Since I was six years old, I've been training in the Korean–Japanese martial art of Hapkido at <a class="link" href="https://www.g3academy.com/" target="_blank">G3 Academy of Martial Arts</a> in Sierra Madre, California. In January of 2023, I earned my first-degree black belt.
+                    </p>
+                </td>
+                               
+            </tr>
+            <tr>
+                <td>
+                    <img src=".assets/hapkido.jpg">
+                </td> 
+            </tr>
+        </table>
+
+        <h3>
+            Digital Elevation Models (DEMs)
+        </h3>
+
+        <table class="row-desk">
+            <tr>
+                <td class="row-td">
+                    <p>
+                        Digital Elevation Models are models that can represent Earth's surface in different ways. In 2022, I worked on a solo project that takes custom data—in the form of a .tif file—and calculates the most efficient off-trail route between two points in a wilderness setting. The repo can be viewed <a class="link" href="https://github.com/remy-rabideau/digital-elevation-models" target="_blank">here</a>.
+                    </p>
+                </td>
+                <td class="row-td">
+                    <img src=".assets/dems.png">
+                </td>
+            </tr>
+        </table>
+
+        <table class="row-mobile">
+            <tr>
+                <td>
+                    <p>
+                        Digital Elevation Models are models that can represent Earth's surface in different ways. In 2022, I worked on a solo project that takes custom data—in the form of a .tif file—and calculates the most efficient off-trail route between two points in a wilderness setting. The repo can be viewed <a class="link" href="https://github.com/remy-rabideau/digital-elevation-models" target="_blank">here</a>.
                     </p>
                 </td>
             </tr>
-            <tr class="row">
+            <tr>
                 <td>
-                    <h3>
-                        Digital Elevation Models (DEMs)
-                    </h3>
-                    <p>
-                        Digital Elevation Models are models that can represent Earth's surface in different ways. In 2022, I worked on a solo project that takes custom data—in the form of a .tif file—and calculates the most efficient off-trail route between two points in a wilderness setting. The repo can be viewed <a href="https://github.com/remy-rabideau/digital-elevation-models" target="_blank">here</a>.
-                    </p>
-                </td>
-                <td>
-                    <img id="dems-pic" src=".assets/dems.png" class="right-pic">
+                    <img src=".assets/dems.png">
                 </td>
             </tr>
         </table>
     </body>
+    <br><br><br>
 </html>
