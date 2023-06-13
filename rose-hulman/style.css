@@ -8,43 +8,91 @@ body {
     cursor: default;
 }
 
-#nav-bar {
+table {
     width: 100%;
-    text-align: center;
-    font-size: 25px;
-    background-color: #1d2f48;
-    border-radius: 15px 50px
 }
 
-#nb-home {
-    font-size: 35px;
-}
-
-.nb-item {
-    width: 20%;
-    padding: 20px;
+#nav-bar-mobile {
+    display: none;
 }
 
 a {
-    color: rgb(177, 170, 255);
+    color: currentColor;
     text-decoration: initial;
 }
 
-h1 {
-    margin-left: 5%;
-    margin-top: 5%;
+.navbar-link {
+    width: 33.3%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+#nav-bar-desk, #nav-bar-mobile {
+    width: 99.2%;
+    text-align: center;
+    font-size: 25px;
+    background-color: #1D2D44;
+    border-radius: 15px 50px;
+    margin-top: 20px;
+    margin-bottom: 100px;
+    margin-left: 5px;
+}
+
+#home {
     font-size: 40px;
 }
 
-p {
-    margin-left: 10%;
-    margin-right: 20%;
-    font-size: 23px;
-    line-height: 35px;
+h1 {
+    font-size: 70px;
+    text-align: center;
+    margin-bottom: 80px;
 }
 
 h2 {
-    margin-left: 7%;
-    margin-top: 5%;
+    font-size: 50px;
+    margin-left: 100px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+p {
+    text-align: justify;
     font-size: 30px;
+    margin-left: 160px;    
+    margin-right: 160px;
+}
+
+.link:link, .link:visited {
+    color: #9dacc5;
+}
+
+@media only screen and (max-width: 650px) {
+    td {
+        width: 100%;
+    }
+
+    h1 {
+        font-size: 50px;
+    }
+
+    h2 {
+        font-size: 45px;
+        text-align: center;
+        margin-left: 0;
+    }
+
+    p {
+        margin-left: 15%;
+        margin-right: 15%;
+        font-size: 25px;
+    }
+
+    #nav-bar-mobile {
+        display: table;        
+        width: 97%;
+    }
+
+    #nav-bar-desk {
+        display: none;
+    }
 }
