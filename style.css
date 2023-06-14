@@ -91,6 +91,21 @@ img {
     color: #9dacc5;
 }
 
+@media only screen and (max-width: 1200px) {
+    img {
+        width: 70%;
+    }
+
+    .heading-pic {
+        width: 80%;
+    }
+
+    p {
+        margin-left: 80px;
+        margin-right: 10px;
+    }
+}
+
 @media only screen and (max-width: 650px) {
     td {
         width: 100%;
