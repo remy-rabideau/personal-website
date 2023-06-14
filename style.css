@@ -38,7 +38,6 @@ a {
 #nav-bar-desk, #nav-bar-mobile {
     width: 99.2%;
     text-align: center;
-    font-size: 25px;
     background-color: #1D2D44;
     border-radius: 15px 50px;
     margin-top: 20px;
@@ -46,8 +45,8 @@ a {
     margin-left: 5px;
 }
 
-#home {
-    font-size: 40px;
+#nav-bar-desk td, #nav-bar-mobile td {
+    font-size: 25px;
 }
 
 h1 {
