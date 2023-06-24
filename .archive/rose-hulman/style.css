@@ -12,33 +12,9 @@ table {
     width: 100%;
 }
 
-#nav-bar-mobile {
-    display: none;
-}
-
 a {
     color: currentColor;
     text-decoration: initial;
-}
-
-.navbar-link {
-    width: 33.3%;
-    padding-top: 30px;
-    padding-bottom: 30px;
-}
-
-#nav-bar-desk, #nav-bar-mobile {
-    width: 99.2%;
-    text-align: center;
-    background-color: #1D2D44;
-    border-radius: 15px 50px;
-    margin-top: 20px;
-    margin-bottom: 100px;
-    margin-left: 5px;
-}
-
-#nav-bar-desk td, #nav-bar-mobile td {
-    font-size: 25px;
 }
 
 h1 {
@@ -84,14 +60,5 @@ p {
         margin-left: 15%;
         margin-right: 15%;
         font-size: 25px;
-    }
-
-    #nav-bar-mobile {
-        display: table;        
-        width: 97%;
-    }
-
-    #nav-bar-desk {
-        display: none;
     }
 }
